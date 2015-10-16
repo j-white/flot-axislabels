@@ -98,6 +98,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             this.opts.axisLabelColour = 'black';
         var ctx = this.plot.getCanvas().getContext('2d');
         ctx.save();
+        ctx.textAlign="left";
         ctx.font = this.opts.axisLabelFontSizePixels + 'px ' +
             this.opts.axisLabelFontFamily;
         ctx.fillStyle = this.opts.axisLabelColour;
