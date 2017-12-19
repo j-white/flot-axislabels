@@ -1,0 +1,11 @@
+{
+    "name": "flot.axislabels",
+    "version": "2.0.1",
+    "description": "Axis Labels plugin for flot",
+    "license": "MIT",
+    "main": "jquery.flot.axislabels.js",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/j-white/flot-axislabels.git"
+    }
+}
